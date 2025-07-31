@@ -2,7 +2,10 @@
 
 Repositorio que documenta el estudio del problema de planificación de horarios universitarios.
 
-El archivo "UCTPmetodoexacto" tiene la solución del modelo general del problema con un solver.
+El archivo "UCTPmetodoexacto" tiene la solución del modelo general del problema con el solver LuLP de Python.
+
+El archivo "UCTPgenetico" tiene la solución del modelo general del problema con un algoritmo genético creado con la biblioteca DEAP de Python, la solución que da es la misma
+que el método exacto.
 
 # Modelo matemático general
 
