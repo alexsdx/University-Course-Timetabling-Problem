@@ -87,3 +87,4 @@ best = hof[0]
 print("Mejor individuo:", best)
 print("Asignaciones:", decode_individual(best))
 print("Fitness:", evaluate(best)[0])
+print("Prueba de cambio")
